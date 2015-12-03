@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app='courseRoster'>
+	<head>
+		<title>Course Roster</title>
+		<script src='lib/angular.js'></script>
+		<script src='lib/angular-ui-router.js'></script>
+		<script src='app.js'></script>
+		<script src='controllers/CoursesController.js'></script>
+		<script src='services/CoursesFactory.js'></script>
+		<script src='services/UtilitiesFactory.js'></script>
+		<link href='css/bootstrap.css' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+		<div class='container-fluid'>
+			<div ui-view></div>
+		</div>
+	</body>
+</html>
